@@ -1,0 +1,13 @@
+.build/
+.build-*/
+.cache/
+.swiftpm/
+dist/
+.DS_Store
+*.app/
+*.zip
+*.dmg
+*.xcuserstate
+xcuserdata/
+.env
+.env.*

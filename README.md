@@ -38,13 +38,13 @@ MathPad 是一个离线、原生的 macOS 数学公式输入器。按 `⌥Space`
 ```sh
 git clone https://github.com/g20090218-a11y/MathPad.git
 cd MathPad
-MATHPAD_SKIP_SELF_TEST=1 ./package_app.sh
+MATHPAD_SKIP_SELF_TEST=1 zsh package_app.sh
 open ../MathPad.app
 ```
 
 `package_app.sh` 会先构建发布版本并执行内置核心自检，然后在输出目录生成标准的 `MathPad.app`。应用完全离线运行，不包含第三方依赖。
 
-只编译打包、不执行自检：`MATHPAD_SKIP_SELF_TEST=1 ./package_app.sh`。
+只编译打包、不执行自检：`MATHPAD_SKIP_SELF_TEST=1 zsh package_app.sh`。
 
 ## 操作说明
 

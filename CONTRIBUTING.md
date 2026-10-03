@@ -9,7 +9,7 @@ MathPad 使用 SwiftUI、AppKit 和 Carbon，无第三方依赖。请保持离�
 需要 macOS 14 或更新版本，以及 Swift 6.2 或更新版本的工具链。
 
 ```sh
-MATHPAD_SKIP_SELF_TEST=1 ./package_app.sh
+MATHPAD_SKIP_SELF_TEST=1 zsh package_app.sh
 open ../MathPad.app
 ```
 
